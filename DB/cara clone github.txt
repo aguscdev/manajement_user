@@ -1,0 +1,37 @@
+Langkah-langkah clone github adn jalankan ke server local
+
+1.Download/clone Source Code dari repo Github Silsilah dalam bentuk Zip.
+$ git clone https://github.com/aguscdev/manajement_user.git
+
+2.jika download,Extract file zip (source code) ke dalam direktori htdocs pada XAMPP, htdocs/manajement_user.
+
+3.Melalui terminal, cd ke direktori manajement_user.
+(Sesuai petunjuk installasi) Pada terminal, berikan perintah composer install. Ini yang perlu koneksi internet.
+
+4.Composer akan menginstall dependency paket dari source code tersebut hingga selesai.
+
+5.Jalankan perintah php artisan, untuk menguji apakah perintah artisan Laravel bekerja.
+
+6.Buat database baru dan import database yang berada di folder DB->tests.sql pada mysql (via phpmyadmin).
+
+7.Duplikat file .env.example, lalu rename menjadi .env.
+
+8.Kembali ke terminal, php artisan key:generate.
+
+9.Setting koneksi database di file .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
+
+10.Jalan kan perintah php artisan migrate Jika di cek di phpmyadmin, seharusnya tabel sudah muncul.
+
+11.Setelah selesai, buka aplikasi melalui browser, misal : http://localhost:8000 atau http://localhost:8000/login.
+
+Login dan aplikasi siap digunakan.
+
+Untuk Hak akses login
+1.username : agus  password:123456
+2.username : budi  password:123456
+3.username : eko   passwrod:123456
+4.username : idham password:123456
+
+Seperti itu lebih kurangnya cara menginstall aplikasi Laravel dari github ke XAMPP di Windows. Mudah-mudahan membantu teman-teman yang belum familiar dengan cara menggunakan source code di Github, Composer dan Laravel.
+
+Terima kasih sudah berkenan membaca.
