@@ -25,7 +25,8 @@ class LoginController extends Controller
     	$name = $request->name;
     	$password = $request->password;
     	if (Auth::attempt(["name"=>$name,"password"=>$password])) {
-    		return redirect("/home");
+    		// return redirect("/home");
+            return redirect("/home/home");
     	}else {
     		return redirect("/login");
     	}
@@ -34,7 +35,8 @@ class LoginController extends Controller
     public function home()
     {
 
-    	return view('home');
+    	// return view('home');
+        return view('/home/home');
     }
 
     public function logout()

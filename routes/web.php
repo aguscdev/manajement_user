@@ -17,5 +17,12 @@ Route::get('/', function () {
 
 Route::get('/login', 'LoginController@index');
 Route::post('/login/proses', 'LoginController@proses');
-Route::get('/home', 'LoginController@home');
+// Route::get('/home', 'LoginController@home');
 Route::get('/logout', 'LoginController@logout');
+Route::get('/home/home', 'LoginController@home');
+Route::get('/admin/index', 'UserController@index');
+Route::get('/admin/create', 'UserController@create');
+Route::post('/admin/store','UserController@store');
+Route::get('/admin/edit/{id}','UserController@edit');
+Route::post('/admin/update/{id}','UserController@update');
+Route::get('/admin/delete/{id}','UserController@delete');

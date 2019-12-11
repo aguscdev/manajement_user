@@ -1,16 +1,12 @@
 
-{{Auth::user()->name}} - {{Auth::user()->level}}
+{{Auth::user()->name}} - {{Auth::user()->user_role}}
 <ul>
 	<li>Home</li>
-	@if(Auth::user()->level=="manager" || Auth::user()->level=="admin")
-	<li>Manager</li>
-	<li>Supervisor</li>
-	<li>Operator</li>
-	@elseif(Auth::user()->level=="supervisor")
-	<li>Supervisor</li>
-	<li>Operator</li>
-	@elseif(Auth::user()->level=="operator")
-	<li>Operator</li>
+	@if(Auth::user()->user_role=="officer" || Auth::user()->user_role=="administrator")
+	<li>Officer</li>
+	<li>User</li>
+	@elseif(Auth::user()->user_role=="user")
+	<li>User</li>
 	@endif
 </ul>
 
