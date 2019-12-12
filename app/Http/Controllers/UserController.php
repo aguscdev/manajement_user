@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 use App\User;
 
@@ -22,7 +23,7 @@ class UserController extends Controller
            $data->no_telepon = $request->no_telepon;
            $data->email = $request->email;
            $data->user_role = $request->user_role;
-           $data->password = $request->password;
+           $data->password = Hash::make($request->password);
            $data->save();
            return redirect("admin/index");
     }
