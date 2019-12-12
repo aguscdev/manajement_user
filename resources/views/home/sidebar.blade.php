@@ -47,7 +47,7 @@
             <a href="#project" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>PROJECT MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="project" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp Project Manajement</a></li>
+                    <li><a href="{{url('/manajement/project')}}" class=""><i class="fa fa-list"></i> &nbsp Project Manajement</a></li>
                 </ul>
             </div>
         </li>
@@ -55,7 +55,7 @@
             <a href="#partner" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>PARTNER MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="partner" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp Partner Manajement</a></li>
+                    <li><a href="{{url('/manajement/partner')}}" class=""><i class="fa fa-list"></i> &nbsp Partner Manajement</a></li>
                 </ul>
             </div>
         </li>
@@ -63,7 +63,7 @@
             <a href="#modul" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>MODUL MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="modul" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp Modul Manajement</a></li>
+                    <li><a href="{{url('/manajement/modul')}}" class=""><i class="fa fa-list"></i> &nbsp Modul Manajement</a></li>
                 </ul>
             </div>
         </li>
@@ -71,7 +71,7 @@
             <a href="#customer" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>CUSTOMER MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="customer" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp Customer Manajement</a></li>
+                    <li><a href="{{url('/manajement/customer')}}" class=""><i class="fa fa-list"></i> &nbsp Customer Manajement</a></li>
                 </ul>
             </div>
         </li>
@@ -79,7 +79,7 @@
             <a href="#user" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>USER MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="user" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp User Manajement</a></li>
+                    <li><a href="{{url('/manajament/user')}}" class=""><i class="fa fa-list"></i> &nbsp User Manajement</a></li>
                 </ul>
             </div>
         </li>
@@ -87,7 +87,7 @@
             <a href="#master" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>MASTER DATA MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="master" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp Master Data Manajement</a></li>
+                    <li><a href="{{url('/manajement/master-data')}}" class=""><i class="fa fa-list"></i> &nbsp Master Data Manajement</a></li>
                 </ul>
             </div>
         </li>
@@ -102,7 +102,7 @@
             <a href="#modul" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>MODUL MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="modul" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp Modul Manajement</a></li>
+                    <li><a href="{{url('/manajement/modul')}}" class=""><i class="fa fa-list"></i> &nbsp Modul Manajement</a></li>
                 </ul>
             </div>
         </li>
@@ -110,7 +110,7 @@
             <a href="#customer" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>CUSTOMER MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="customer" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp Customer Manajement</a></li>
+                    <li><a href="{{url('/manajement/customer')}}" class=""><i class="fa fa-list"></i> &nbsp Customer Manajement</a></li>
                 </ul>
             </div>
         </li>
@@ -118,7 +118,7 @@
             <a href="#user" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>USER MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="user" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp User Manajement</a></li>
+                    <li><a href="{{url('/manajament/user')}}" class=""><i class="fa fa-list"></i> &nbsp User Manajement</a></li>
                 </ul>
             </div>
         </li>
@@ -126,7 +126,7 @@
             <a href="#master" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>MASTER DATA MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="master" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp Master Data Manajement</a></li>
+                    <li><a href="{{url('/manajement/master-data')}}" class=""><i class="fa fa-list"></i> &nbsp Master Data Manajement</a></li>
                 </ul>
             </div>
         </li>
@@ -135,7 +135,7 @@
             <a href="#project" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>PROJECT MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="project" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp Project Manajement</a></li>
+                    <li><a href="{{url('/manajement/project')}}" class=""><i class="fa fa-list"></i> &nbsp Project Manajement</a></li>
                 </ul>
             </div>
         </li>
@@ -143,7 +143,7 @@
             <a href="#partner" data-toggle="collapse" class="collapsed"><i class="fa fa-folder text-aqua"></i> <span>PARTNER MANAJEMENT</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="partner" class="collapse ">
                 <ul class="nav">
-                    <li><a href="#" class=""><i class="fa fa-list"></i> &nbsp Partner Manajement</a></li>
+                    <li><a href="{{url('/manajement/partner')}}" class=""><i class="fa fa-list"></i> &nbsp Partner Manajement</a></li>
                 </ul>
             </div>
         </li>

@@ -26,3 +26,10 @@ Route::post('/admin/store','UserController@store');
 Route::get('/admin/edit/{id}','UserController@edit');
 Route::post('/admin/update/{id}','UserController@update');
 Route::get('/admin/delete/{id}','UserController@delete');
+
+Route::get('/manajement/project','ManajementController@project');
+Route::get('/manajement/partner', 'ManajementController@partner');
+Route::get('/manajement/modul', 'ManajementController@modul');
+Route::get('/manajement/customer', 'ManajementController@customer');
+Route::get('/manajament/user', 'ManajementController@user');
+Route::get('/manajement/master-data', 'ManajementController@master_data');

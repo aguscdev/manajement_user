@@ -53,5 +53,6 @@ class UserController extends Controller
         $users->delete();
         return redirect("admin/index");
     }
+
 }
 
